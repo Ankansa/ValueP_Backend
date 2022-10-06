@@ -1,10 +1,11 @@
 import Joi from '@hapi/joi';
 import HttpStatus from 'http-status-codes';
 
+
 export const newUserValidator = (req, res, next) => {
   const schema = Joi.object({
     name: Joi.string().min(2).required(),
-    email: Joi.string().email().trim(true).required(),
+    emailid: Joi.string().email().trim(true).required(),
     birthDate: Joi.date().raw().required(),
     address: Joi.string().required(),
     country: Joi.string().required(),

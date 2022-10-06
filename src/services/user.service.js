@@ -2,7 +2,7 @@ import User from '../models/user.model';
 
 //Add new name
 export const newUser = async (body) => {
-  const mailCheck = await User.findOne({email:body.email})
+  const mailCheck = await User.findOne({emailid:body.emailid})
   if(mailCheck){
     throw new Error("Mail ID already Exist")
   }else{
