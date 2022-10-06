@@ -1,0 +1,320 @@
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"querySrv","timestamp":"2022-10-05T13:36:36.231Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"querySrv","timestamp":"2022-10-05T13:38:41.809Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"querySrv","timestamp":"2022-10-05T13:39:12.219Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"querySrv","timestamp":"2022-10-05T13:44:20.490Z"}
+error: 
+    status - 500 
+    message - Error: Unknown date format DD-MM-YYYY
+    at new module.exports (C:\Users\ankan\valurpitchAssin\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (C:\Users\ankan\valurpitchAssin\node_modules\@hapi\hoek\lib\assert.js:21:11)
+    at internals.Base.format (C:\Users\ankan\valurpitchAssin\node_modules\@hapi\joi\lib\types\date.js:81:17)
+    at newUserValidator (C:\Users\ankan\valurpitchAssin\src\validators\/user.validator.js:7:21)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\ankan\valurpitchAssin\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\ankan\valurpitchAssin\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-10-05T14:06:44.546Z"}
+error: 
+    status - 500 
+    message - Error: Unknown date format YYYY-MM-DD
+    at new module.exports (C:\Users\ankan\valurpitchAssin\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (C:\Users\ankan\valurpitchAssin\node_modules\@hapi\hoek\lib\assert.js:21:11)
+    at internals.Base.format (C:\Users\ankan\valurpitchAssin\node_modules\@hapi\joi\lib\types\date.js:81:17)
+    at newUserValidator (C:\Users\ankan\valurpitchAssin\src\validators\/user.validator.js:7:21)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\ankan\valurpitchAssin\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\ankan\valurpitchAssin\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-10-05T14:09:14.652Z"}
+error: 
+    status - 500 
+    message - ReferenceError: joi is not defined
+    at newUserValidator (C:\Users\ankan\valurpitchAssin\src\validators\/user.validator.js:7:10)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\ankan\valurpitchAssin\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\ankan\valurpitchAssin\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-10-05T14:12:24.984Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string.required is not a function
+    at newUserValidator (C:\Users\ankan\valurpitchAssin\src\validators\/user.validator.js:8:25)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\ankan\valurpitchAssin\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\ankan\valurpitchAssin\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-10-05T14:12:56.777Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string.required is not a function
+    at newUserValidator (C:\Users\ankan\valurpitchAssin\src\validators\/user.validator.js:8:25)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\ankan\valurpitchAssin\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\ankan\valurpitchAssin\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-10-05T14:14:56.535Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string.required is not a function
+    at newUserValidator (C:\Users\ankan\valurpitchAssin\src\validators\/user.validator.js:7:25)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\ankan\valurpitchAssin\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\ankan\valurpitchAssin\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-10-05T14:15:38.728Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-10-05T14:17:53.869Z"}
+error: 
+    status - 500 
+    message - ValidationError: "country" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-10-05T14:18:39.409Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 57
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\ankan\valurpitchAssin\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\ankan\valurpitchAssin\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-10-05T14:18:46.906Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"querySrv","timestamp":"2022-10-05T15:10:09.524Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"querySrv","timestamp":"2022-10-05T15:10:32.956Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"querySrv","timestamp":"2022-10-05T15:11:54.662Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"querySrv","timestamp":"2022-10-05T15:12:21.773Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"querySrv","timestamp":"2022-10-05T16:00:15.000Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"querySrv","timestamp":"2022-10-05T16:00:37.176Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"querySrv","timestamp":"2022-10-05T16:01:15.466Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/633d9ffd872fcf2ea062f6bc 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-10-05T16:30:21.373Z"}

@@ -1,0 +1,442 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T13:30:32.337Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T13:30:40.896Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T13:36:36.211Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"querySrv","timestamp":"2022-10-05T13:36:36.231Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T13:38:41.793Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"querySrv","timestamp":"2022-10-05T13:38:41.809Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T13:39:12.185Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"querySrv","timestamp":"2022-10-05T13:39:12.219Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T13:44:20.470Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"querySrv","timestamp":"2022-10-05T13:44:20.490Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T13:49:08.552Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T13:49:13.071Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T13:50:01.687Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T13:50:10.455Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T13:50:58.997Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T13:51:02.724Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T13:51:23.013Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T13:51:28.633Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T13:51:32.530Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T13:59:02.277Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T13:59:15.274Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T14:00:45.408Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T14:01:02.453Z"}
+error: 
+    status - 500 
+    message - Error: Unknown date format DD-MM-YYYY
+    at new module.exports (C:\Users\ankan\valurpitchAssin\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (C:\Users\ankan\valurpitchAssin\node_modules\@hapi\hoek\lib\assert.js:21:11)
+    at internals.Base.format (C:\Users\ankan\valurpitchAssin\node_modules\@hapi\joi\lib\types\date.js:81:17)
+    at newUserValidator (C:\Users\ankan\valurpitchAssin\src\validators\/user.validator.js:7:21)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\ankan\valurpitchAssin\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\ankan\valurpitchAssin\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-10-05T14:06:44.546Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T14:08:49.242Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T14:08:52.668Z"}
+error: 
+    status - 500 
+    message - Error: Unknown date format YYYY-MM-DD
+    at new module.exports (C:\Users\ankan\valurpitchAssin\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (C:\Users\ankan\valurpitchAssin\node_modules\@hapi\hoek\lib\assert.js:21:11)
+    at internals.Base.format (C:\Users\ankan\valurpitchAssin\node_modules\@hapi\joi\lib\types\date.js:81:17)
+    at newUserValidator (C:\Users\ankan\valurpitchAssin\src\validators\/user.validator.js:7:21)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\ankan\valurpitchAssin\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\ankan\valurpitchAssin\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-10-05T14:09:14.652Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T14:11:16.860Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T14:11:41.780Z"}
+error: 
+    status - 500 
+    message - ReferenceError: joi is not defined
+    at newUserValidator (C:\Users\ankan\valurpitchAssin\src\validators\/user.validator.js:7:10)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\ankan\valurpitchAssin\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\ankan\valurpitchAssin\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-10-05T14:12:24.984Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T14:12:40.971Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T14:12:46.914Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string.required is not a function
+    at newUserValidator (C:\Users\ankan\valurpitchAssin\src\validators\/user.validator.js:8:25)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\ankan\valurpitchAssin\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\ankan\valurpitchAssin\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-10-05T14:12:56.777Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T14:14:43.597Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T14:14:52.365Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string.required is not a function
+    at newUserValidator (C:\Users\ankan\valurpitchAssin\src\validators\/user.validator.js:8:25)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\ankan\valurpitchAssin\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\ankan\valurpitchAssin\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-10-05T14:14:56.535Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T14:15:22.180Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T14:15:25.311Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string.required is not a function
+    at newUserValidator (C:\Users\ankan\valurpitchAssin\src\validators\/user.validator.js:7:25)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\ankan\valurpitchAssin\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\ankan\valurpitchAssin\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\ankan\valurpitchAssin\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-10-05T14:15:38.728Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T14:15:53.500Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T14:15:56.655Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T14:17:53.159Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-10-05T14:17:53.869Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T14:17:57.083Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T14:18:24.436Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T14:18:27.353Z"}
+error: 
+    status - 500 
+    message - ValidationError: "country" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-10-05T14:18:39.409Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 57
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\ankan\valurpitchAssin\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\ankan\valurpitchAssin\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\ankan\valurpitchAssin\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-10-05T14:18:46.906Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T14:19:55.162Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T14:19:58.317Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T14:21:31.216Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T14:21:34.361Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T14:23:53.830Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T14:24:18.724Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T14:24:21.770Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T14:25:41.238Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T14:25:58.145Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T14:26:01.254Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T14:26:45.408Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T14:26:48.521Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T14:27:51.306Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T14:27:54.537Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T14:30:18.255Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T14:30:21.631Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T14:34:31.977Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T14:34:38.096Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T14:35:13.040Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T14:35:26.147Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T14:35:29.233Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T14:35:40.570Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T14:36:06.532Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T14:36:23.614Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T14:37:25.775Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T14:37:28.976Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T14:48:34.532Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T14:48:37.761Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T14:50:36.969Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T14:50:40.526Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T14:51:31.385Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T14:51:51.506Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T14:51:55.010Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T14:56:20.914Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T14:56:24.279Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T14:57:59.059Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T14:58:02.158Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T14:58:26.636Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T14:58:30.193Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T14:59:38.958Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T15:00:10.329Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T15:00:13.875Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T15:00:55.702Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T15:01:01.757Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T15:01:15.975Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T15:01:19.525Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T15:01:30.535Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T15:01:34.418Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T15:02:51.134Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T15:08:58.203Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T15:09:06.570Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T15:10:09.424Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"querySrv","timestamp":"2022-10-05T15:10:09.524Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T15:10:32.935Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"querySrv","timestamp":"2022-10-05T15:10:32.956Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T15:11:54.638Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"querySrv","timestamp":"2022-10-05T15:11:54.662Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T15:12:21.758Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"querySrv","timestamp":"2022-10-05T15:12:21.773Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T15:17:01.903Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T15:17:10.471Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T16:00:14.969Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"querySrv","timestamp":"2022-10-05T16:00:15.000Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T16:00:37.159Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"querySrv","timestamp":"2022-10-05T16:00:37.176Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T16:01:15.441Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"querySrv","timestamp":"2022-10-05T16:01:15.466Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T16:02:26.948Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T16:02:29.913Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T16:05:57.261Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T16:06:00.356Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T16:06:47.457Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T16:06:55.209Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T16:06:58.197Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T16:07:53.220Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T16:07:55.898Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T16:08:04.176Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T16:08:06.930Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T16:10:58.658Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T16:11:07.585Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T16:11:25.208Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T16:11:30.532Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T16:16:43.118Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T16:16:51.598Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T16:16:54.382Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T16:17:09.439Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T16:17:12.330Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T16:20:08.927Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T16:20:17.436Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T16:20:20.445Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T16:20:39.493Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T16:20:42.170Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/633d9ffd872fcf2ea062f6bc 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-10-05T16:30:21.373Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T16:30:48.557Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T16:30:51.560Z"}
