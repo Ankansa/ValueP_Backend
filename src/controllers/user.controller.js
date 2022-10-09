@@ -49,7 +49,7 @@ export const getAllUsers = async (req, res, next) => {
 };
 
 /**
- * Controller to update a user
+ * Controller to update a name
  * @param  {object} req - request object
  * @param {object} res - response object
  * @param {Function} next
@@ -71,7 +71,7 @@ export const updateUser = async (req, res, next) => {
 };
 
 /**
- * Controller to delete a user
+ * Controller to delete a name
  * @param  {object} req - request object
  * @param {object} res - response object
  * @param {Function} next
